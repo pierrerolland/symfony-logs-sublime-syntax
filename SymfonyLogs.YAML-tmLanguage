@@ -1,0 +1,23 @@
+# [PackageDev] target_format: plist, ext: tmLanguage
+---
+name: Symfony Logs
+scopeName: text.log
+fileTypes: ["log"]
+uuid: d7a6d65c-039f-4f6c-9e91-41a4d4593227
+
+patterns:
+- comment: Date of log line
+  name: comment.line
+  match: \[\d{4}\-\d{2}\-\d{2} \d{2}:\d{2}:\d{2}\]
+- comment: Debug event
+  name: variable.parameter
+  match: ([a-z]+)\.DEBUG
+- comment: Info event
+  name: support.constant
+  match: ([a-z]+)\.INFO
+- comment: Critical event
+  name: invalid.illegal
+  match: (([a-z]+)\.CRITICAL)|(([a-z]+)\.ERROR)
+- comment: String (class name or file)
+  name: string.quoted.other
+  match: \"[^\"]+\"
