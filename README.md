@@ -7,7 +7,7 @@ Highlights some parts of Symfony 2 logs to make them more readable on Sublime Te
 ![Screenshot](img/screen.png)
 
 ## Installation (Linux)
-Just put those two files in ~/.config/sublime-text-3/Packages/User/ 
+Just put the two "SymfonyLogs.*" files in ~/.config/sublime-text-3/Packages/User/ 
 
 ## Recommanded color schemes
 - Monokai
