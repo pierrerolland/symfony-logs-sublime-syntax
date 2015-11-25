@@ -38,7 +38,7 @@
 			<key>comment</key>
 			<string>Critical event</string>
 			<key>match</key>
-			<string>(([a-z]+)\.CRITICAL)|(([a-z]+)\.ERROR)</string>
+			<string>(([a-z]+)\.CRITICAL)|(([a-z]+)\.ERROR)|(([a-z]+)\.WARNING)</string>
 			<key>name</key>
 			<string>invalid.illegal</string>
 		</dict>

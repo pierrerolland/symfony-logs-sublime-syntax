@@ -17,7 +17,7 @@ patterns:
   match: ([a-z]+)\.INFO
 - comment: Critical event
   name: invalid.illegal
-  match: (([a-z]+)\.CRITICAL)|(([a-z]+)\.ERROR)
+  match: (([a-z]+)\.CRITICAL)|(([a-z]+)\.ERROR)|(([a-z]+)\.WARNING)
 - comment: String (class name or file)
   name: string.quoted.other
   match: \"[^\"]+\"
